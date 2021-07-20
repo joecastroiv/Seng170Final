@@ -1,0 +1,26 @@
+2000:Communication_Timout; Packets from the drive to the DUA are not being received in a timely manner
+2001:Wait_For_Acknowledge_Timeout; Drive is not acknowledging receipt of a command 
+2002:Fatal_Comm_Timeout; Capabilities have been lost due to a loss of communications with the drive
+2005:Too_Mny_Errors; Drive is reporting too many errors to process
+2006:Drive_Interrupted; Drive is reporting a second recovery error while attempting to recover
+2007:CE_Floor_With_Non_CE_Drive; Drive firmware is too old to support querying for the DUSC mode.
+2008:Bad_Reponse_MEssage; DUA received out of sequence or stale message while waiting for command completion and may retry
+2026:Drive_Not_Managed; Activity could not be started because the drive is not managed. Manage the drive and try again
+2027:Drive_Not_System_Owned; Activity could not be started because the drive is not system owned. Release the drive and try again
+2028:Drive_Managed_By_Another_User; Activity could not be started because the drive is owned by another user. Transfer ownership to yourself and then try again
+2029:DC_Error_Disabled; The drive controller was disabled due to an error received from the drive
+2030:Drive_User_Disabled; The drive controller was disabled by a user
+2031:Drive_System_Disabled; The drive controller was disabled by the system
+2032:Drive_Ready_For_Enable; The drive is ready to be enabled
+2033:Firmware_Update_Started; Firmware update started
+2034:Firmware_Update_Successful; Firmware update completed successfully
+2035:Firmware_Update_Failed; Firmware update completed unsuccessfully
+2100:Floor_Barcode_Not_Found; No floor barcode was seen
+2101:Floor_Barcode_Unreadable; A floor barcode was visible but could not be read
+2102:Unknown_Fiducial_Barcode; A floor barcode was seen but it does not match a known barcode
+2103:Unexpected_Floor_Barcode; The observed floor barcode does not match the expected floor barcode
+2104:Pod_Barcode_Not_Found; Not pod barcode was seen
+2105:Pod_Barcode_Unreadable; A pod barcode was visible but could not be read
+2107:Firmware_Protocol_Revision_Too_Old; The protocol revision read from the drive is too old to work with this release of the MHS software. The firmware on this drive must be updated to operate with this MHS
+257:ERROR Right drive motor feedback error; the right drive motor has to much error tracking its reference
+291:WARN Left Motor Encoder Count Warning; Missing occasional encoder counts. Should be flagged for maintenance
